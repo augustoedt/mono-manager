@@ -5,7 +5,7 @@
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": [".svelte-kit/**", ".vercel/**", "dist/**"]
+      "outputs": [".svelte-kit/**", ".vercel/**", "dist/**", "node_modules/@prisma/client"]
     },
     "dev": {
       "cache": false,
