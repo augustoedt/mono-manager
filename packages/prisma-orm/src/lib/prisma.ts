@@ -3,7 +3,7 @@ import { createRequire } from "module";
 
 const require = createRequire(import.meta.url ?? __filename);
 
-const { PrismaClient: RequiredPrismaClient } = require("@prisma/client");
+const { PrismaClient: RequiredPrismaClient } = require("../generated/prisma");
 
 const _PrismaClient: typeof ImportedPrismaClient = RequiredPrismaClient;
 
