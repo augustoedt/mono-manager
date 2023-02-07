@@ -1,4 +1,4 @@
-import { prisma } from 'prisma-orm';
+import { prisma } from 'prisma-orm/src';
 
 import type { PageServerLoadEvent } from './$types';
 
