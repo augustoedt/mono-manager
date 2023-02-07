@@ -1,4 +1,4 @@
-import type { PrismaClient as ImportedPrismaClient } from "@prisma/client";
+import type { PrismaClient as ImportedPrismaClient } from "../__generated__/prisma";
 import { createRequire } from "module";
 
 const require = createRequire(import.meta.url ?? __filename);
