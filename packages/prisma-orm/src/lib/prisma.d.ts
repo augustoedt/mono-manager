@@ -1,1 +1,1 @@
-export * from "../__generated__/prisma";
+export * from "../generated/prisma";
